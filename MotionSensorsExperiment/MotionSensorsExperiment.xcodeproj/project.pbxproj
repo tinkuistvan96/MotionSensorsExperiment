@@ -12,6 +12,7 @@
 		4FC09827287CAC7400090B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC09826287CAC7400090B2D /* Assets.xcassets */; };
 		4FC0982A287CAC7400090B2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC09829287CAC7400090B2D /* Preview Assets.xcassets */; };
 		4FC09831287CBB7600090B2D /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC09830287CBB7500090B2D /* MotionManager.swift */; };
+		4FCEE1AD287D99BF001F29F9 /* MotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCEE1AC287D99BF001F29F9 /* MotionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4FC09826287CAC7400090B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC09829287CAC7400090B2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FC09830287CBB7500090B2D /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		4FCEE1AC287D99BF001F29F9 /* MotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				4FC09822287CAC6D00090B2D /* MotionSensorsExperimentApp.swift */,
 				4FC09824287CAC6D00090B2D /* ContentView.swift */,
+				4FCEE1AC287D99BF001F29F9 /* MotionView.swift */,
 				4FC09830287CBB7500090B2D /* MotionManager.swift */,
 				4FC09826287CAC7400090B2D /* Assets.xcassets */,
 				4FC09828287CAC7400090B2D /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCEE1AD287D99BF001F29F9 /* MotionView.swift in Sources */,
 				4FC09825287CAC6D00090B2D /* ContentView.swift in Sources */,
 				4FC09831287CBB7600090B2D /* MotionManager.swift in Sources */,
 				4FC09823287CAC6D00090B2D /* MotionSensorsExperimentApp.swift in Sources */,
@@ -281,8 +285,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,8 +316,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
